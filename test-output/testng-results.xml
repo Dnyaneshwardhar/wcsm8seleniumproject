@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[FTS01]]>
+    </line>
+    <line>
+      <![CDATA[FTS02]]>
+    </line>
+    <line>
+      <![CDATA[FTS03]]>
+    </line>
+    <line>
+      <![CDATA[ITS01]]>
+    </line>
+    <line>
+      <![CDATA[ITS02]]>
+    </line>
+    <line>
+      <![CDATA[ITS03]]>
+    </line>
+    <line>
+      <![CDATA[STS01]]>
+    </line>
+    <line>
+      <![CDATA[STS02]]>
+    </line>
+    <line>
+      <![CDATA[STS03]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-06-21T23:11:07 IST" name="Default suite" finished-at="2023-06-21T23:11:07 IST" duration-ms="150">
+    <groups>
+      <group name="functionaltesting">
+        <method signature="AlwaysRun.ft1()[pri:0, instance:flag.AlwaysRun@2e55dd0c]" name="ft1" class="flag.AlwaysRun"/>
+        <method signature="AlwaysRun.ft2()[pri:0, instance:flag.AlwaysRun@2e55dd0c]" name="ft2" class="flag.AlwaysRun"/>
+        <method signature="AlwaysRun.ft3()[pri:0, instance:flag.AlwaysRun@2e55dd0c]" name="ft3" class="flag.AlwaysRun"/>
+      </group> <!-- functionaltesting -->
+      <group name="integrationtesting">
+        <method signature="AlwaysRun.it1()[pri:0, instance:flag.AlwaysRun@2e55dd0c]" name="it1" class="flag.AlwaysRun"/>
+        <method signature="AlwaysRun.it2()[pri:0, instance:flag.AlwaysRun@2e55dd0c]" name="it2" class="flag.AlwaysRun"/>
+        <method signature="AlwaysRun.it3()[pri:0, instance:flag.AlwaysRun@2e55dd0c]" name="it3" class="flag.AlwaysRun"/>
+      </group> <!-- integrationtesting -->
+      <group name="smoketesting">
+        <method signature="AlwaysRun.st1()[pri:0, instance:flag.AlwaysRun@2e55dd0c]" name="st1" class="flag.AlwaysRun"/>
+        <method signature="AlwaysRun.st2()[pri:0, instance:flag.AlwaysRun@2e55dd0c]" name="st2" class="flag.AlwaysRun"/>
+        <method signature="AlwaysRun.st3()[pri:0, instance:flag.AlwaysRun@2e55dd0c]" name="st3" class="flag.AlwaysRun"/>
+      </group> <!-- smoketesting -->
+    </groups>
+    <test started-at="2023-06-21T23:11:07 IST" name="Default test" finished-at="2023-06-21T23:11:07 IST" duration-ms="150">
+      <class name="flag.AlwaysRun">
+        <test-method signature="ft1()[pri:0, instance:flag.AlwaysRun@2e55dd0c]" started-at="2023-06-21T23:11:07 IST" name="ft1" finished-at="2023-06-21T23:11:07 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[FTS01]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ft1 -->
+        <test-method signature="ft2()[pri:0, instance:flag.AlwaysRun@2e55dd0c]" started-at="2023-06-21T23:11:07 IST" name="ft2" finished-at="2023-06-21T23:11:07 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[FTS02]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ft2 -->
+        <test-method signature="ft3()[pri:0, instance:flag.AlwaysRun@2e55dd0c]" started-at="2023-06-21T23:11:07 IST" name="ft3" finished-at="2023-06-21T23:11:07 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[FTS03]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ft3 -->
+        <test-method signature="it1()[pri:0, instance:flag.AlwaysRun@2e55dd0c]" started-at="2023-06-21T23:11:07 IST" name="it1" finished-at="2023-06-21T23:11:07 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ITS01]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- it1 -->
+        <test-method signature="it2()[pri:0, instance:flag.AlwaysRun@2e55dd0c]" started-at="2023-06-21T23:11:07 IST" name="it2" finished-at="2023-06-21T23:11:07 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ITS02]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- it2 -->
+        <test-method signature="it3()[pri:0, instance:flag.AlwaysRun@2e55dd0c]" started-at="2023-06-21T23:11:07 IST" name="it3" finished-at="2023-06-21T23:11:07 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ITS03]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- it3 -->
+        <test-method signature="st1()[pri:0, instance:flag.AlwaysRun@2e55dd0c]" started-at="2023-06-21T23:11:07 IST" name="st1" finished-at="2023-06-21T23:11:07 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[STS01]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- st1 -->
+        <test-method signature="st2()[pri:0, instance:flag.AlwaysRun@2e55dd0c]" started-at="2023-06-21T23:11:07 IST" name="st2" finished-at="2023-06-21T23:11:07 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[STS02]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- st2 -->
+        <test-method signature="st3()[pri:0, instance:flag.AlwaysRun@2e55dd0c]" started-at="2023-06-21T23:11:07 IST" name="st3" finished-at="2023-06-21T23:11:07 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[STS03]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- st3 -->
+      </class> <!-- flag.AlwaysRun -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
